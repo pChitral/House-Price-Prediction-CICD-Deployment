@@ -77,14 +77,15 @@ The following Python packages are required to run the Flask app:
 To run the application, activate the virtual environment using the following command:
 
 ```
-source venv/bin/activate
 
+source venv/bin/activate
 ```
 
 
 Install the required packages using the following command:
 
 ```
+
 pip install -r requirements.txt
 ```
 
@@ -92,6 +93,7 @@ pip install -r requirements.txt
 Then, start the Flask app using the following command:
 
 ```
+
 python app.py
 ```
 
