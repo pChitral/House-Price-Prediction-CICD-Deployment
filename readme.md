@@ -1,6 +1,6 @@
 # House Price Prediction CICD Deployment
 
-This project aims to deploy a machine learning model that predicts house prices based on various features such as the number of rooms, area, location, and other factors. The model is based on Linear Regression, and the predictions are made using Flask API.
+This project is an end-to-end machine learning web application that predicts the prices of houses in Boston, Massachusetts. The application uses a linear regression model that was trained on the [Boston Housing dataset](https://archive.ics.uci.edu/ml/datasets/housing) to predict house prices based on various features such as the number of rooms, crime rate, and pupil-teacher ratio. The model is based on Linear Regression, and the predictions are made using Flask API.
 
 ## Table of Contents
 
@@ -12,6 +12,9 @@ This project aims to deploy a machine learning model that predicts house prices 
   - [Dependencies](#dependencies)
   - [Running the Application](#running-the-application)
   - [Deploying the Application](#deploying-the-application)
+  - [Usage](#usage)
+  - [License](#license)
+  - [License](#license-1)
 
 ---
 
@@ -32,7 +35,7 @@ To run and deploy this project, you will need the following software and tools:
 
 Create a new environment using conda:
 
-`conda create -p venv python==3.7 -y`
+```conda create -p venv python==3.9 -y```
 
 
 ---
@@ -74,12 +77,12 @@ The following Python packages are required to run the Flask app:
 
 To run the application, activate the virtual environment using the following command:
 
-`source venv/bin/activate`
+```source venv/bin/activate```
 
 
 Install the required packages using the following command:
 
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 
 Then, start the Flask app using the following command:
@@ -97,3 +100,16 @@ To deploy the application on Heroku, follow these steps:
 
 1. Create a new Heroku app using the Heroku CLI or the Heroku Dashboard.
 2. Set up a new Git repository for the project using the following
+
+---
+
+## Usage 
+- The application can be run locally by running the ```app.py``` file. 
+- The application can be accessed by navigating to ```http://localhost:5000``` in a web browser.
+
+---
+
+## License 
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
