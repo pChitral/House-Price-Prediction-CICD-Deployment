@@ -19,6 +19,13 @@ def home():
 
 @app.route('/predict_api', methods=['POST'])
 def predict_api():
+    # This can fix the warning
+    
+    # feature_names = ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS', 'RAD', 'TAX', 'PTRATIO', 'B', 'LSTAT']
+    # data = request.json['data']
+    # new_data = pd.DataFrame(data, columns=feature_names)
+    # scaled_data = scalar.transform(new_data)
+
     data = request.json['data']
     print(data)
     print(np.array(list(data.values())).reshape(1, -1))
