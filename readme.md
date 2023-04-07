@@ -14,7 +14,6 @@ This project is an end-to-end machine learning web application that predicts the
   - [Deploying the Application](#deploying-the-application)
   - [Usage](#usage)
   - [License](#license)
-  - [License](#license-1)
 
 ---
 
@@ -110,6 +109,6 @@ To deploy the application on Heroku, follow these steps:
 ---
 
 ## License 
-## License
+
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
