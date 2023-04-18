@@ -21,6 +21,9 @@ This project is an end-to-end machine learning web application that predicts the
 
 This project focuses on predicting the prices of houses in the Boston area based on various factors such as the number of rooms, area, location, and other factors. The trained machine learning model can be deployed using the Flask API provided in this repository.
 
+<img width="569" alt="Screenshot 2023-04-16 at 2 46 33 PM" src="https://user-images.githubusercontent.com/69043137/232903712-5037d3ce-d7f7-4056-bc9f-1dc2e237c33e.png">
+
+
 ---
 
 ## Software and Tools Requirements
